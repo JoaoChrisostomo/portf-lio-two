@@ -113,8 +113,8 @@ img {
 }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
-.section {
-  padding: 2rem 0 4rem;
+/* .section {
+  padding: 1rem 0 4rem;
 }
 
 .section__title {
@@ -131,7 +131,7 @@ img {
 .section__title, 
 .section__subtitle {
   text-align: center;
-}
+} */
 
 /*==================== LAYOUT ====================*/
 .container {
@@ -243,12 +243,129 @@ justify-content: space-between;
 
 
 /*==================== HOME ====================*/
+.home_container{
+  gap: 2rem;
+}
+
+.home_content{
+  display: grid;
+  grid-template-columns: repeat(4fr);
+  align-items: center;
+}
+
+.home_social{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.home_social-icons{
+  display: flex;
+  font-size: 1.25rem;
+  color: var(--first-color);
+  transition: .3s;
+}
+
+.home_social-icons:hover{
+  color: var(--first-color-alt);
+}
+
+.home_blob{
+  width: 200px;
+  fill: var(--first-color);
+}
+
+.home_blob-img{
+  width: 100%;
+}
+.home_title{
+  font-size: var(--big-font-size);
+}
+.home_subtitle{
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-75);
+}
+
+.home_description{
+  margin-bottom: var(--mb-2)
+}
+
+.home_scroll{
+  display: none;
+}
+
+.home_scroll-button{
+  color: var(--first-color);
+  transition: .3s;
+}
+
+.home_scroll-button:hover{
+  color: var(--first-color-alt);
+  transform: translateY(.25rem);
+}
+.home_scroll-mouse{
+  font-size: 5rem;
+}
+
+.home_scroll-name{
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  margin-right: var(--mb-0-25);
+  /* border: 1px solid var(--first-color); */
+}
+
+.home_scroll-arrow{
+  font-size: 1.25rem;
+  border: 1px solid var(--first-color);
+}
 
 
 /*==================== BUTTONS ====================*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+}
 
+.button:hover{
+  background-color: var(--first-color-alt);
+}
+
+.button_icon{
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: .3s;
+  padding: 10px;
+}
+
+.button--flex{
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 5px;
+}
 
 /*==================== ABOUT ====================*/
+.about{
+  text-align: center;
+  /* margin: 16px; */
+  margin-top: 3rem;
+}
+.about_img{
+ width: 200px;
+ border-radius: .5rem;
+ justify-self: center;
+ align-self: center; 
+}
+
+.about_description{
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
 
 
 /*==================== SKILLS ====================*/
