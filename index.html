@@ -5,11 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--==================== UNICONS ====================-->
-        <link rel =" stylesheet " href =" boxicons.min.css ">
         <link rel = " stylesheet " href =" https://unpkg.com/boxicons@latest/css/boxicons.min.css ">
         <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="boxicons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         
         
         
@@ -334,92 +333,212 @@
 
             <section class="qualification section">
                 <h2 class="section_title">Qualification</h2>
-                <span class="section_subtitle">My personal journey</span>
+                <p class="subtitle">My personal journey</p>
 
                 <div class="qualification_container container">
                     <div class="qualification_tabs">
-                        <div class="qualification_button button button--flex">
-                            <span class="iconify qualification_icon" data-icon="ph:student-fill" data-inline="false" >Education</span>
+                        <div class="qualification_button button button--flex qualification_active" data-target="#education">
+                            <span class="iconify" data-icon="ph:student-fill" data-inline="false" ></span>
+                            Education
                         </div>
                         
-                        <div class="qualification_button button button--flex">
-                            <span class="iconify qualification_icon" data-icon="fluent:briefcase-28-filled" data-inline="false">Work</span>
+                        <div class="qualification_button button button--flex" data-target="#work">
+                            <span class="iconify" data-icon="fluent:briefcase-28-filled" data-inline="false"></span>
+                            Work
                         </div>
                     </div>
 
                     <div class="qualification_section">
-                        <!--================ QUALIFICATION CONTENT 1============-->
-                        <div class="qualification_content">
+                        <!--================ QUALIFICATION CONTENT Estudent 1============-->
+                        <div class="qualification_content qualification_active" data-content id="education">
                             <!--================ QUALIFICATION 1 ============-->
                             <div class="qualification_data">
-                                <h3 class="qualification_title">
-                                    Management Information Technology</h3>
-                                <span class="qualification_subtitle">Itajaí - FMU Universida</span>
-                                <span class="qualification_subtitle">Universidad de los Andes</span>
-                                <div class="qualification_calendar">
-                                    <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
-                                    2021 - 2023 cusando
+                                <div>
+                                    <h3 class="qualification_title">
+                                        Management Information Technology</h3>
+                                    <span class="qualification_subtitle">Itajaí - FMU Universida</span>
+                                    <div class="qualification_calendar">
+                                        <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
+                                        2021 - 2023 <br>
+                                        cusando
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
                                 </div>
                             </div>
-                            <div>
-                                <span class="qualification_rounder"></span>
-                                <span class="qualification_line"></span>
+                            <!--================ QUALIFICATION 2 ============-->
+                            <div class="qualification_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification_title">
+                                        Bootcamp Oracle next Education FullStack</h3>
+                                    <span class="qualification_subtitle">Brasil - home-office<i class="fa fa-share-alt-square" aria-hidden="true"></i></span>
+                                    <div class="qualification_calendar">
+                                        <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
+                                        09/11/2021 - 11/07/2022 <br>
+                                        cusando
+                                    </div>
+                                </div>
                             </div>
+                            <!--================ QUALIFICATION 3 ============-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">
+                                        QAninja Automação 180</h3>
+                                    <span class="qualification_subtitle">Brasil - home-office</span>
+                                    <div class="qualification_calendar">
+                                        <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
+                                        7 messes <br>
+                                        Concluido
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>   
                         </div>
 
-                              <!--================ QUALIFICATION 2 ============-->
+                        <!--================ QUALIFICATION CONTENT Work 2============-->
+                        <div class="qualification_content" data-content id="work">
+                            <!--================ QUALIFICATION 1 ============-->
                             <div class="qualification_data">
-                                <h3 class="qualification_title">
-                                    Bootcamp Fullstack Oracle Next Education</h3>
-                                <span class="qualification_subtitle">Alura and Oracle</span>
-                                <span class="qualification_subtitle">Universidad de los Andes</span>
-                                <div class="qualification_calendar">
-                                    <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
-                                    2021 - 2023 cusando
+                                <div>
+                                    <h3 class="qualification_title">
+                                        Management Information Technology</h3>
+                                    <span class="qualification_subtitle">Itajaí - FMU Universida</span>
+                                    <div class="qualification_calendar">
+                                        <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
+                                        2021 - 2023 <br>
+                                        cusando
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
                                 </div>
                             </div>
-                            <div>
-                                <span class="qualification_rounder"></span>
-                                <span class="qualification_line"></span>
+                            <!--================ QUALIFICATION 2 ============-->
+                            <div class="qualification_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification_title">
+                                        Management Information Technology</h3>
+                                    <span class="qualification_subtitle">Itajaí - FMU Universida</span>
+                                    <div class="qualification_calendar">
+                                        <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
+                                        2021 - 2023 <br>
+                                        cusando
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                           <!--================ QUALIFICATION 1 ============-->
-                           <div class="qualification_data">
-                            <h3 class="qualification_title">
-                                Management Information Technology</h3>
-                            <span class="qualification_subtitle">Itajaí - FMU Universida</span>
-                            <span class="qualification_subtitle">Universidad de los Andes</span>
-                            <div class="qualification_calendar">
-                                <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
-                                2021 - 2023 cusando
+                            <!--================ QUALIFICATION 3 ============-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">
+                                        Management Information Technology</h3>
+                                    <span class="qualification_subtitle">Itajaí - FMU Universida</span>
+                                    <div class="qualification_calendar">
+                                        <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
+                                        2021 - 2023 <br>
+                                        cusando
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <span class="qualification_rounder"></span>
-                            <span class="qualification_line"></span>
-                        </div>
-                           <!--================ QUALIFICATION 1 ============-->
-                           <div class="qualification_data">
-                            <h3 class="qualification_title">
-                                Management Information Technology</h3>
-                            <span class="qualification_subtitle">Itajaí - FMU Universida</span>
-                            <span class="qualification_subtitle">Universidad de los Andes</span>
-                            <div class="qualification_calendar">
-                                <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
-                                2021 - 2023 cusando
-                            </div>
-                        </div>
-                        <div>
-                            <span class="qualification_rounder"></span>
-                            <span class="qualification_line"></span>
-                        </div>
+
+                            <!--================ QUALIFICATION 4 ============-->
+                            <div class="qualification_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <!-- <span class="qualification_line"></span> -->
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">
+                                        Management Information Technology</h3>
+                                    <span class="qualification_subtitle">Itajaí - FMU Universida</span>
+                                    <div class="qualification_calendar">
+                                        <i class='bx bxs-calendar bx-flip-horizontal' style='color:rgba(20,20,20,0.9)'></i>
+                                        2021 - 2023 <br>
+                                        cusando
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>           
                     </div>
                 </div>
-                
             </section>
 
 
             <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section_title">services</h2>
+                <span class="section_subtitle">What i ofter</span>
+
+                <div class="services_container container grid">
+                    <!--==================== SERVICES 1 ====================-->
+                    <div>
+                        <div class="services_content">
+                            <i class='bx bx-grid sercies_icon'></i>
+                            <h3 class="services_title">FrontEnd<br> Developer web</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services_button">
+                            View More
+                            <i class='bx bx-right-arrow-circle button_icon'></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title">FrontEnd <br> Developer web</h4>
+                                <i class='bx bx-x services_modal-close' style='color:rgba(27,26,28,0.9)'></i>
+
+                                <ul class="services_modal-services grid">
+                                    <li class="services_modal-service">
+                                        <i class='bx bx-check-circle services_modal-icon'></i>
+                                        <p>I develop the user interface.</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class='bx bx-check-circle services_modal-icon'></i>
+                                        <p>Web page development</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class='bx bx-check-circle services_modal-icon'></i>
+                                        <p>..................</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class='bx bx-check-circle services_modal-icon'></i>
+                                        <p>..................</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
@@ -450,7 +569,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
